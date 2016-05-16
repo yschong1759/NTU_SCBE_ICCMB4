@@ -1,0 +1,135 @@
+doctype html
+
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="chrome=1")
+    meta(name="viewport",content="width=device-width,initial-scale=1")
+    link(href="css/bootstrap_united.css", rel="stylesheet")
+    link(href="css/custom.css", rel="stylesheet")
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    title ICCMB4 2017
+
+  body(data-spy="scroll", data-target=".navbar", data-offset="150")
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle.collapsed(data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#home') 
+        .collapse.navbar-collapse.navbar-right#bs-example-navbar-collapse-1
+          ul.nav.navbar-nav
+            li.active
+              a(href='#home') Home
+            li
+              a(href='#theme-box') Theme
+            li
+              a(href='#speakers-box') Invited Speakers
+            li
+              a(href='#details-box') Schedule
+            li
+              a(href='#committee-box') Organizing Committee
+    
+    .container-fluid#home
+      h4.text-center#title International Conference on Cellular and Molecular Biology (ICCMB4)
+
+    .container-fluid#theme-box
+      h4.text-center.theme-this-year  -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Theme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+      h4.text-center.theme-name Designing Biomacromolecules for Better Living
+
+    .container-fluid#speakers-box
+      h4.text-center.speakers-title -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Invited Speakers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+      .col-xs-6.col-sm-4.col-md-3.speakers
+        img.img-circle.img-responsive.center-block.speaker-image(src="http://www.case.edu/med/pathology/images/faculty/anderson_web.jpg")
+        a(href="http://www.case.edu/med/pathology/faculty/anderson.html", target="_blank")
+          h5.speaker-name James M. Anderson, M.D., Ph.D.
+        h5.speaker-designation Case Western Reserve Unviersity
+      .col-xs-6.col-sm-4.col-md-3.speakers
+        img.img-circle.img-responsive.center-block.speaker-image(src="img/speakers-prof-paula.jpg")
+        a(href="http://web.mit.edu/cheme/people/profile.html?id=14", target="_blank")
+          h5.speaker-name Paula T. Hammond
+        h5.speaker-designation Massachusetts Institute of Technology
+      .col-xs-6.col-sm-4.col-md-3.speakers
+        img.img-circle.img-responsive.center-block.speaker-image(src="img/speakers-prof-karen.jpg")
+        a(href="https://www.chem.tamu.edu/faculty/faculty_detail.php?ID=9003", target="_blank")
+          h5.speaker-name Karen L Wooley
+        h5.speaker-designation Texas A&amp;M University
+      .col-xs-6.col-sm-4.col-md-3.speakers
+        img.img-circle.img-responsive.center-block.speaker-image(src="img/speakers-prof-craig.jpg")
+        a(href="http://www.mrl.ucsb.edu/people/faculty/craig-hawker", target="_blank")
+          h5.speaker-name Craig Hawker
+        h5.speaker-designation University of California, Santa Barbara
+
+    .container-fluid#details-box
+      h4.text-center.details-title -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symposium Details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+      table.table.table-bordered.text-center.details-table
+        tr
+          td.details-table-col1 Date
+          td.details-table-col2 4th - 6th January 2017
+        tr
+          td.details-table-col1 Venue
+          td.details-table-col2
+            a(href="http://www.scbe.ntu.edu.sg/Pages/Home.aspx") School of Chemical and Biomedical Engineering<br>Nanyang Technological University, Singapore
+        tr
+          td.details-table-col1 Registration Fee
+          td.details-table-col2 Student SGD 300<br>Regular SGD 800
+        tr
+          td.details-table-col1 Presenting time
+          td.details-table-col2 Invited Speakers: 40 minutes<br>Speakers: 20 minutes
+        tr
+          td(colspan="2") **Register by 31 Oct 2016 to earn early bird rate**<br>Student SGD 200<br>Regular SGD 700
+
+    .container-fluid#committee-box
+      h4.text-center.committee-title -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organizing Committee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+      table.table.text-center.committee-table
+        tr
+          td.committee-table-col1 Prof. Mary Chan
+          td.committee-table-col2 School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore
+        tr
+          td.committee-table-col1 Assoc. Prof Liu Xuewei
+          td.committee-table-col2 School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore
+        tr
+          td.committee-table-col1 Assoc. Prof Duan Hongwei
+          td.committee-table-col2 School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore
+        tr
+          td.committee-table-col1 Zhong Wenbin
+          td.committee-table-col2 Student Committee<br>School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore
+        tr
+          td.committee-table-col1 Wu Yang
+          td.committee-table-col2 Student Committee<br>School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore
+        tr
+          td.committee-table-col1 Yeo Chun Kiat
+          td.committee-table-col2 Student Committee<br>School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore
+
+    .container-fluid.footer#footer
+      .col-md-push-2.col-md-3
+        h5 Organized by :
+        img.img-responsive.footer-ntu-logo(src="img/ntu_logo.png")
+        h5 School of Chemical and Biomedical Engineering
+      .col-md-push-3.col-md-3
+        h5 <u>Address</u><br>Nanyang Technological University,<br>62 Nanyang Drive, Block N1.2 , Level B3, Singapore 637459
+        h5 Tel: +65 6316 8938<br>Fax: +65 6794 7553
+        h5 Email: <a href="mailto:cbt@ntu.edu.sg">cbt@ntu.edu.sg</a>
+
+    script(src="js/jquery-1.11.0.js")
+    script(src="js/bootstrap.min.js")
+    script.
+      // smooth scrolling
+      // source: https://css-tricks.com/snippets/jquery/smooth-scrolling/
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top - 60
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });

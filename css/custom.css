@@ -1,0 +1,129 @@
+body {
+  margin-top: 60px;
+  position: relative;
+}
+#home{
+  height: 600px;
+}
+#title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  padding: 20px;
+  font-weight: 300;
+  position: relative;
+  top: 200px;
+}
+#theme-box {
+  padding: 10px 0px;
+  background: #ededed;
+  height: 400px;
+  font-size: 30px;
+}
+.theme-this-year {
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+  top: 100px;
+  font-style: italic;
+  font-weight: 500;
+  text-shadow: 1px 1px #d3d3d3;
+}
+.theme-name {
+  position: relative;
+  top: 150px;
+  font-size: 45px;
+}
+#speakers-box {
+  height: 300px;
+  padding: 20px 100px;
+  height: 500px;
+}
+.speakers-title {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.speakers {
+  padding: 10px;
+  height: 400px;
+}
+.speaker-image {
+  height: 210px;
+  max-height: 210px;
+}
+.speaker-name {
+  padding: 5px 20px;
+  font-size: 18px;
+}
+.speaker-designation {
+  padding: 0px 20px;
+  font-size: 14px
+}
+#details-box {
+  height: 450px;
+  padding: 20px;
+  background: #ededed;
+}
+.details-title {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  font-weight: 500;
+  margin: 20px 0px;
+  text-shadow: 1px 1px #d3d3d3;
+}
+.details-table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.details-table tbody tr td {
+  border: 1px solid #000000;
+}
+.details-table-col1 {
+  width: 20%;
+  font-weight: 900;
+}
+.details-table-col2 {
+  width: 50%;
+}
+#committee-box {
+  height: 450px;
+  padding: 20px;
+}
+.committee-title {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.committee-table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.committee-table tbody tr td {
+  border: none;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 10px 0px;
+  vertical-align: middle;
+}
+.committee-table-col1 {
+  width: 20%;
+  font-weight: 500;
+}
+.committee-table-col2 {
+  width: 50%;
+}
+#footer {
+  padding: 10px 15px;
+  height: 160px;
+  background: #dd4814;
+  color: #ffffff;
+}
+.footer-ntu-logo {
+  height: 50px;
+}
+#footer a {
+  color: #ffffff;
+}

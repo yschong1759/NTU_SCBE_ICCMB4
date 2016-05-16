@@ -1,0 +1,8 @@
+jade -w -P D:\Github\NTU_SCBE_ICCMB4/jade/ -o D:\Github\NTU_SCBE_ICCMB4
+
+
+title
+theme
+speakers
+tentative schedule
+organizing committee
